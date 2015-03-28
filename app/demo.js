@@ -48,7 +48,7 @@ board.on('ready', function() {
         }
       },
       {
-        delay: 10000,
+        delay: 15000,
         task: function() {
           oled.clearDisplay();
           // display a bitmap
@@ -60,7 +60,7 @@ board.on('ready', function() {
         }
       },
       {
-        delay: 10000,
+        delay: 15000,
         task: function() {
           oled.clearDisplay();
           // display text
@@ -69,7 +69,7 @@ board.on('ready', function() {
         }
       },
       {
-        delay: 10000,
+        delay: 15000,
         task: function() {
           oled.clearDisplay();
           // draw some lines
@@ -79,7 +79,7 @@ board.on('ready', function() {
         }
       },
       {
-        delay: 10000,
+        delay: 15000,
         task: function() {
           oled.clearDisplay();
           // draw a rectangle
@@ -87,7 +87,7 @@ board.on('ready', function() {
         }
       },
       {
-        delay: 10000,
+        delay: 15000,
         task: function() {
           oled.clearDisplay();
           // display text
